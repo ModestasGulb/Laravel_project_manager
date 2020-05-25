@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+hr {
+    border: solid 1px darkcyan;
+    width: 100%;
+}
+
+h1 {
+    color: darkcyan;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: darkcyan;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+p {
+  color: darkcyan;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+button {
+    min-width: 80px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: darkcyan;
+    color: whitesmoke;
+    padding: 10px 0px;
+}
+
+tr {
+    background-color: lightcyan;
+    border: solid 1px slategray;
+}
+
+td {
+    padding: 10px 0px;
+}
+
+td form {
+    display: inline-block;
+}
+
+.edit {
+    background-color: rgb(219, 211, 10);
+}
+
+.delete {
+    background-color: rgb(241, 131, 116);
+}
+
+.view {
+    background-color: rgb(141, 218, 134);
+}
+
+.create {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.create a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.create a:hover {
+    color: mediumturquoise;
+}
+
+.status {
+    color: rgb(58, 119, 58);
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* index.blade.php style */
+
+#page-title {
+    font-size: 6rem;
+    font-weight: bold;
+    color: darkcyan;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+#index {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.flex-container-index {
+    display: flex;
+    justify-content: space-around;
+}
+
+.index-links {
+    font-size: 4rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.index-links:hover {
+    color: mediumturquoise;
+}
+
+.index-sircle {
+    height: 350px;
+    width: 350px;
+    background-color: darkcyan;
+    border-radius: 50%;
+    line-height: 350px;
+    text-align: center;
+}
+
+/* nav.blade.php style */
+
+#nav {
+    padding: 30px;
+}
+
+.nav-btn input {
+    background-color: darkcyan;
+    color: whitesmoke;
+}
+
+.nav-btn input:hover {
+    background-color: paleturquoise;
+    color: darkcyan;
+}
+
+/* IndexProject.blade.php and IndexEmployee.blade.php */
+
+.cell-no-e {
+    width: 4%;
+    text-align: center;
+}
+
+.cell-name-e {
+    width: 23%;
+    text-align: center;
+}
+
+.cell-actions-e {
+    width: 30%;
+    text-align: center;
+}
+
+.cell-no-p {
+    width: 4%;
+    text-align: center;
+}
+
+.cell-name-p {
+    width: 16%;
+    text-align: center;
+}
+
+.cell-actions-p {
+    width: 50%;
+    text-align: center;
+}
+
+.cell-actions-p {
+    width: 30%;
+    text-align: center;
+}
+
+/* createEmployee.blade.php and createProject.blade.php */
+
+/* editEmployee.blade.php and editProject.blade.php*/
+
+#create-form {
+    background-color: lightcyan;
+    text-align: center;
+    padding: 10px;
+    color: darkcyan;
+}
+
+.submit {
+    background-color: darkcyan;
+    color: lightcyan;
+}
+
+.submit:hover {
+    background-color: paleturquoise;
+    color: darkcyan;
+}
+
+#create-form textarea {
+    width: 200px;
+}
+
+#create-form form input, select, textarea {
+    margin-bottom: 10px;
+}
+
+/* showEmployee.blade.php and showProject.blade.php */
+
+.show {
+    background-color: lightcyan;
+}
+
+.show div form {
+    display: inline-block;
+    margin-left: 20px;
+}
